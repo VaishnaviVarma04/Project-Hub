@@ -29,7 +29,7 @@ npm run dev
 ### Frontend Setup
 cd frontend && npm install
 npm run dev
-Visit http://localhost:5173
+Visit http://localhost:5174
 
 ## API Endpoints
 
