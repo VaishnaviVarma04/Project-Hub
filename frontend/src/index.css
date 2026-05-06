@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  background: #f0f2f7;
+  color: #1a1d23;
+  min-height: 100vh;
+}
+
+button { font-family: inherit; cursor: pointer; transition: all 0.2s; }
+input, select, textarea { font-family: inherit; }
+a { text-decoration: none; }
