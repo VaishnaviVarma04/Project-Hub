@@ -7,8 +7,14 @@ body {
   background: #f0f2f7;
   color: #1a1d23;
   min-height: 100vh;
+  -webkit-tap-highlight-color: transparent;
 }
 
 button { font-family: inherit; cursor: pointer; transition: all 0.2s; }
 input, select, textarea { font-family: inherit; }
 a { text-decoration: none; }
+
+/* Mobile scrollbar */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #f0f2f7; }
+::-webkit-scrollbar-thumb { background: #667eea; border-radius: 4px; }
