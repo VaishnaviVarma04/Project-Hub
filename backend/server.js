@@ -9,7 +9,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:5174', 'https://project-hub-2-production.up.railway.app'],
+  origin: '*',
   credentials: true
 }));
 app.use(express.json());
