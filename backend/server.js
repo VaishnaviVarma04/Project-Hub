@@ -8,7 +8,10 @@ dotenv.config();
 const app = express();
 
 // Middleware
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5174', 'project-hub-2-production.up.railway.app'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Routes (we'll add these soon)
