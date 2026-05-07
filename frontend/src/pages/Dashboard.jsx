@@ -63,7 +63,7 @@ export default function Dashboard() {
 
       <div style={{ padding: '20px 16px', maxWidth: 1100, margin: '0 auto' }}>
         <h1 style={{ fontSize: 20, fontWeight: 800, marginBottom: 2 }}>
-          {greeting}, {user.name.split(' ')[0]} 👋
+          {greeting}, {user.name.split(' ')[0]} 
         </h1>
         <p style={{ color: '#6b7280', marginBottom: 20, fontSize: 13 }}>Here's your workspace overview.</p>
 
